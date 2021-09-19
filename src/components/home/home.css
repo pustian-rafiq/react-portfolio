@@ -1,3 +1,23 @@
-p{
-    color:red;
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: felx;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+ 
+}
+/* When screen size is greater than laptop screen */
+@media only screen and (max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+}
+/* When screen size is less than laptop mobile */
+@media only screen and (max-width: 512px){
+  .home{
+      width: 100%;
+      background: blue;
+  }
 }
