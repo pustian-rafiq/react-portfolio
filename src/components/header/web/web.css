@@ -1,0 +1,21 @@
+.web{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.web-option{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight:500;
+}
+.web-option a{
+    color: white;
+    text-decoration:none;
+    padding: 5px
+}
+.web-option:last-child{
+    margin-right: 0px;
+}
+.web-option a:hover{
+    background: red;
+}
