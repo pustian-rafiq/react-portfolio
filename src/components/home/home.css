@@ -6,6 +6,7 @@ html{
     flex-direction: column;
     width: 70%;
     margin: auto;
+    background: rgb(252, 250, 250);
  
 }
 /* When screen size is greater than laptop screen */
