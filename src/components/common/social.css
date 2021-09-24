@@ -17,3 +17,11 @@
         height: 32px;
     }
 }
+/* Separator style */
+.separator{
+    background-color: rgb(150, 66, 66);
+    height: 6px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 16px 0px;
+}
