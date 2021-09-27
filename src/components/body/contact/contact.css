@@ -1,0 +1,50 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.contact-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+.contact-left{
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+.download-section{
+    display: flex;
+   
+    background: green;
+    color: white;
+    font-size: 24px;
+    padding: 8px 16px;
+    align-items: center;
+    justify-content:center;
+    margin-right: 10px;
+}
+.download-section a{
+ text-decoration: none;
+ color:black;
+}
+.download-section a img{
+  height:20px;
+}
+@media only screen and (max-width: 720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        max-width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .download-section{
+        margin-top: 20px;
+    }
+}

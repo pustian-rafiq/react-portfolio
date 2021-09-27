@@ -41,7 +41,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1p
     margin-right: 6px;
     margin-bottom: 4px;
     color: white;
-    cursor: pointer
+    cursor: pointer;
 }
 .tag:hover{
     background-color: black;
